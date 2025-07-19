@@ -71,30 +71,34 @@ export default function Home() {
     Our Products
   </h2>
   <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
-    {/* EmailRewriter */}
-   <div
-        className="bg-white rounded shadow p-6 flex flex-col items-center text-center"
-        data-aos="fade-up"
-        data-aos-delay="0"
+   {/* EmailResponder */}
+<div
+  className="bg-white rounded shadow p-6 flex flex-col items-center text-center"
+  data-aos="fade-up"
+  data-aos-delay="0"
 >
-      <Image
-        src="/images/emailrewriter-icon.png"
-        alt="EmailRewriter Icon"
-        width={80}
-        height={80}/>
-      <h3 className="text-xl font-semibold mt-4 text-blue-700">
-        EmailRewriter
-      </h3>
-      <p className="text-gray-600 mt-2 text-sm">
-        Struggling to write the perfect email? EmailRewriter instantly transforms your draft into clear, concise, and professional messages. Rewrite, shorten, or adjust tone with powerful AI that helps you communicate better — whether it’s sales, support, or everyday business communication. Plus, expand your global reach with seamless translation into English, Spanish, German, French, and Chinese.
-      </p>
-     <a
-        href="#"
-        className="mt-4 inline-block bg-gray-400 text-white px-4 py-2 rounded text-sm cursor-not-allowed"
+  <Image
+    src="/images/emailresponder-icon.png"
+    alt="EmailResponder Icon"
+    width={80}
+    height={80}
+  />
+  <h3 className="text-xl font-semibold mt-4 text-blue-700">
+    EmailResponder
+  </h3>
+ <p className="text-gray-600 mt-2 text-sm leading-snug tracking-tight">
+    Meet EmailResponder — your smart email assistant that replies for you!
+    Generate professional responses in seconds using AI. Easily change tone,
+    language, or content. Includes reply history, mobile support, and a
+    friendly interface. Try it free for 7 days, then just $4.99/month!
+  </p>
+ <a
+  href="/emailresponder"
+  className="mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded text-sm hover:bg-blue-700"
 >
-        Coming Soon
-     </a>
-    </div>
+  Start 7-Day Free Trial
+</a>
+</div>
 
     {/* LandingLens */}
   <div

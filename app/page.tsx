@@ -71,7 +71,7 @@ export default function Home() {
     Our Products
   </h2>
   <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
-   {/* EmailResponder */}
+   {/* EmailRewriter */}
 <div
   className="bg-white rounded shadow p-6 flex flex-col items-center text-center"
   data-aos="fade-up"
@@ -79,7 +79,7 @@ export default function Home() {
 >
   <Image
     src="/images/emailresponder-icon.png"
-    alt="EmailResponder Icon"
+    alt="EmailRewriter Icon"
     width={80}
     height={80}
   />
@@ -87,13 +87,13 @@ export default function Home() {
     EmailResponder
   </h3>
    <p className="text-gray-600 mt-2 text-sm leading-snug tracking-tight">
-    EmailResponder is your AI-powered assistant for writing smarter, faster replies. Whether you're managing support, sales, or internal emails, EmailResponder helps you communicate with clarity and confidence. Includes tone adjustment, translation, and instant suggestions.
+    Struggling to write the perfect email? EmailRewriter instantly transforms your draft into clear, concise, and professional messages. Rewrite, shorten, or adjust tone with powerful AI that helps you communicate better — whether it's sales, support, or everyday business communication. Plus, expand your global reach with seamless translation into English, Spanish, German, French, and Chinese.
   </p>
  <a
-  href="/pricing"
+  href="/emailresponder"
   className="mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded text-sm hover:bg-blue-700"
 >
-  Try for Free
+  Start Free Trial
 </a>
 </div>
 

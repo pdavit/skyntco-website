@@ -86,17 +86,14 @@ export default function Home() {
   <h3 className="text-xl font-semibold mt-4 text-blue-700">
     EmailResponder
   </h3>
- <p className="text-gray-600 mt-2 text-sm leading-snug tracking-tight">
-    Meet EmailResponder — your smart email assistant that replies for you!
-    Generate professional responses in seconds using AI. Easily change tone,
-    language, or content. Includes reply history, mobile support, and a
-    friendly interface. Try it free for 7 days, then just $4.99/month!
+   <p className="text-gray-600 mt-2 text-sm leading-snug tracking-tight">
+    EmailResponder is your AI-powered assistant for writing smarter, faster replies. Whether you're managing support, sales, or internal emails, EmailResponder helps you communicate with clarity and confidence. Includes tone adjustment, translation, and instant suggestions.
   </p>
  <a
-  href="/emailresponder"
+  href="/pricing"
   className="mt-4 inline-block bg-blue-600 text-white px-4 py-2 rounded text-sm hover:bg-blue-700"
 >
-  Start 7-Day Free Trial
+  Try for Free
 </a>
 </div>
 
